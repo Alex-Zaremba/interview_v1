@@ -1,0 +1,29 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  margin: 1rem;
+
+  .header {
+    border-bottom: 1px solid grey;
+    padding-bottom: 1rem;
+  }
+
+  .page {
+    display: flex;
+    gap: 1rem;
+    height: max-content;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid grey;
+    padding: 1rem 1rem 0 0;
+    width: 50px;
+  }
+}
